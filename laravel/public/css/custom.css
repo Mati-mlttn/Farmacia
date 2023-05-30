@@ -1,0 +1,52 @@
+.btn-custom {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.btn-custom:hover {
+    background-color: transparent;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+}
+
+.smaller-text {
+    font-size: 14px;
+}
+
+.smaller-icon {
+    font-size: 0px;
+    /* Ajusta el tamaño de los iconos según tus necesidades */
+    line-height: 1;
+}
+
+
+
+/* Estilos para la barra de progreso */
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para los diferentes colores de la barra de progreso */
+  .progress-bar-fill.red {
+    background-color: #ff4d4d;
+  }
+  
+  .progress-bar-fill.orange {
+    background-color: #ffa500;
+  }
+  
+  .progress-bar-fill.green {
+    background-color: #00cc66;
+  }
